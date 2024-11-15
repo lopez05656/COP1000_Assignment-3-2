@@ -3,14 +3,10 @@
 #Output: Accept or Reject
 
 # Get input and convert to correct data type for testScore and classRank
+testScore = int(input("Please Enter this student's test score: "))
+classRank = int(input("Now please Enter this student's class rank: "))
 
 # Test using admission requirements and print Accept or Reject
-
-print("Please Enter this student's test score...")
-testScore = int(input())
-print("Now please Enter this student's class rank...")
-classRank = int(input())
-
 if testScore >= 90:
   if classRank >= 25:
     print("Admission Accepted...")
